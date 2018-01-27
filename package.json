@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyurl/sfn-sse.git"
+    "url": "git+https://github.com/hyurl/parse-accepts.git"
   },
   "bugs": {
-    "url": "https://github.com/Hyurl/sfn-sse/issues",
+    "url": "https://github.com/Hyurl/parse-accepts/issues",
     "email": "i@hyurl.com"
   },
   "license": "MIT"

@@ -11,7 +11,7 @@ npm install parse-accepts
 ## Example
 
 ```javascript
-const { parse, parseValue } = require("./");
+const { parse, parseValue } = require("parse-accepts");
 
 var accept = "text/html, application/xhtml+xml, application/xml;q=0.7, */*;q=0.8",
     acceptLang = "zh-CN, zh;q=0.8, en-US;q=0.5, en;q=0.3";
