@@ -1,6 +1,6 @@
 {
   "name": "parse-accepts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tool to parse headers like Accept, Accept-Language, etc.",
   "main": "index.js",
   "types": "index.d.ts",

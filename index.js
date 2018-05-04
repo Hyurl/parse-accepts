@@ -8,8 +8,8 @@ function parse(str) {
     var accepts = [],
         values = str.split(/\s*,\s*/);
 
-    for (let i in values) {
-        let accept = values[i].split(/\s*;\s*q=/),
+    for (var i in values) {
+        var accept = values[i].split(/\s*;\s*q=/),
             quality = accept[1] ? parseFloat(accept[1]) : 1;
 
         values[i] = {
@@ -18,7 +18,7 @@ function parse(str) {
         };
     }
 
-    values.sort((a, b) => {
+    values.sort(function(a, b) {
         return a.quality < b.quality ? 1 : -1;
     });
 
@@ -31,7 +31,7 @@ function parse(str) {
  */
 function parseValue(str){
     var values = parse(str);
-    for(let i in values){
+    for(var i in values){
         values[i] = values[i].value;
     }
     return values;
