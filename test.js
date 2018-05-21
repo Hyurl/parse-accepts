@@ -29,4 +29,4 @@ assert.deepStrictEqual(parse(acceptLang), [
 
 assert.deepStrictEqual(parseValue(acceptLang), ['zh-CN', 'zh', 'en-US', 'en']);
 
-console.log("All tests passed!");
+console.log("#### OK ####");
